@@ -23,3 +23,8 @@ Este curso contiene diversos temas, como los siguientes:
 - Firestore
 
 ... entre otras cosas.
+
+Mi certificado de finalización 
+---------------
+
+![Mi certificado](certificado.jpg)
