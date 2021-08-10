@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente de <GifGrid />. Debe mostrar los items cuando se cargan los gifs utilizando useFetchGifs 1`] = `
+<div>
+  <div
+    className="bar"
+  >
+    <h3>
+      Doom Eternal
+    </h3>
+    <span
+      id="close"
+      onClick={[Function]}
+    >
+      ×
+    </span>
+  </div>
+  <div
+    className="card-grid"
+  />
+</div>
+`;
+
+exports[`Pruebas en el componente de <GifGrid />. Verificar que el componente se renderice correctamente. 1`] = `
+<div>
+  <div
+    className="bar"
+  >
+    <h3>
+      Doom Eternal
+    </h3>
+    <span
+      id="close"
+      onClick={[Function]}
+    >
+      ×
+    </span>
+  </div>
+  <p>
+    Cargando
+  </p>
+  <div
+    className="card-grid"
+  />
+</div>
+`;

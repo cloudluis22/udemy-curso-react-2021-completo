@@ -1,0 +1,521 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente de "<DashboardRoutes />." Debe de mostrarse correctamente. 1`] = `
+Array [
+  <nav
+    className="navbar navbar-expand-sm navbar-dark bg-dark"
+  >
+    <a
+      className="navbar-brand"
+      href="/"
+      onClick={[Function]}
+    >
+      Asociaciones
+    </a>
+    <div
+      className="navbar-collapse"
+    >
+      <div
+        className="navbar-nav"
+      >
+        <a
+          aria-current="page"
+          className="nav-item nav-link active"
+          href="/marvel"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          Marvel
+        </a>
+        <a
+          aria-current={null}
+          className="nav-item nav-link"
+          href="/dc"
+          onClick={[Function]}
+        >
+          DC
+        </a>
+        <a
+          aria-current={null}
+          className="nav-item nav-link"
+          href="/search"
+          onClick={[Function]}
+        >
+          Search
+        </a>
+      </div>
+    </div>
+    <div>
+      <ul
+        className="navbar-nav ml-auto px-5"
+      >
+        <span
+          className="nav-item nav-link text-info"
+        >
+          Hola
+        </span>
+        <button
+          className="nav-item nav-link btn"
+          onClick={[Function]}
+        >
+          Logout
+        </button>
+      </ul>
+    </div>
+  </nav>,
+  <div
+    className="container mt-2"
+  >
+    <div>
+      <h1>
+        Marvel Screen
+      </h1>
+      <hr />
+      <div
+        className="row row-cols-1 row-cols-md-3 animate__animated animate__fadeInUp animate__fast"
+      >
+        <div
+          className="card mb-5 ms-5 pe-1 "
+          style={
+            Object {
+              "maxWidth": 350,
+            }
+          }
+        >
+          <img
+            alt="hero"
+            className="card-img-top mt-3 rounded mx-auto d-block"
+            src="../assets/heroes/marvel-spider.jpg"
+            style={
+              Object {
+                "maxHeight": 300,
+                "maxWidth": 250,
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <h4
+              className="card-title"
+            >
+               
+              Spider Man
+               
+            </h4>
+            <h5
+              className="card-subtitle text-muted"
+            >
+               
+              Peter Parker
+               
+            </h5>
+            <a
+              href="/hero/marvel-spider"
+              onClick={[Function]}
+            >
+              ...Más
+            </a>
+          </div>
+        </div>
+        <div
+          className="card mb-5 ms-5 pe-1 "
+          style={
+            Object {
+              "maxWidth": 350,
+            }
+          }
+        >
+          <img
+            alt="hero"
+            className="card-img-top mt-3 rounded mx-auto d-block"
+            src="../assets/heroes/marvel-captain.jpg"
+            style={
+              Object {
+                "maxHeight": 300,
+                "maxWidth": 250,
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <h4
+              className="card-title"
+            >
+               
+              Captain America
+               
+            </h4>
+            <h5
+              className="card-subtitle text-muted"
+            >
+               
+              Steve Rogers
+               
+            </h5>
+            <a
+              href="/hero/marvel-captain"
+              onClick={[Function]}
+            >
+              ...Más
+            </a>
+          </div>
+        </div>
+        <div
+          className="card mb-5 ms-5 pe-1 "
+          style={
+            Object {
+              "maxWidth": 350,
+            }
+          }
+        >
+          <img
+            alt="hero"
+            className="card-img-top mt-3 rounded mx-auto d-block"
+            src="../assets/heroes/marvel-iron.jpg"
+            style={
+              Object {
+                "maxHeight": 300,
+                "maxWidth": 250,
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <h4
+              className="card-title"
+            >
+               
+              Iron Man
+               
+            </h4>
+            <h5
+              className="card-subtitle text-muted"
+            >
+               
+              Tony Stark
+               
+            </h5>
+            <a
+              href="/hero/marvel-iron"
+              onClick={[Function]}
+            >
+              ...Más
+            </a>
+          </div>
+        </div>
+        <div
+          className="card mb-5 ms-5 pe-1 "
+          style={
+            Object {
+              "maxWidth": 350,
+            }
+          }
+        >
+          <img
+            alt="hero"
+            className="card-img-top mt-3 rounded mx-auto d-block"
+            src="../assets/heroes/marvel-thor.jpg"
+            style={
+              Object {
+                "maxHeight": 300,
+                "maxWidth": 250,
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <h4
+              className="card-title"
+            >
+               
+              Thor
+               
+            </h4>
+            <h5
+              className="card-subtitle text-muted"
+            >
+               
+              Thor Odinson
+               
+            </h5>
+            <a
+              href="/hero/marvel-thor"
+              onClick={[Function]}
+            >
+              ...Más
+            </a>
+          </div>
+        </div>
+        <div
+          className="card mb-5 ms-5 pe-1 "
+          style={
+            Object {
+              "maxWidth": 350,
+            }
+          }
+        >
+          <img
+            alt="hero"
+            className="card-img-top mt-3 rounded mx-auto d-block"
+            src="../assets/heroes/marvel-hulk.jpg"
+            style={
+              Object {
+                "maxHeight": 300,
+                "maxWidth": 250,
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <h4
+              className="card-title"
+            >
+               
+              Hulk
+               
+            </h4>
+            <h5
+              className="card-subtitle text-muted"
+            >
+               
+              Bruce Banner
+               
+            </h5>
+            <a
+              href="/hero/marvel-hulk"
+              onClick={[Function]}
+            >
+              ...Más
+            </a>
+          </div>
+        </div>
+        <div
+          className="card mb-5 ms-5 pe-1 "
+          style={
+            Object {
+              "maxWidth": 350,
+            }
+          }
+        >
+          <img
+            alt="hero"
+            className="card-img-top mt-3 rounded mx-auto d-block"
+            src="../assets/heroes/marvel-wolverine.jpg"
+            style={
+              Object {
+                "maxHeight": 300,
+                "maxWidth": 250,
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <h4
+              className="card-title"
+            >
+               
+              Wolverine
+               
+            </h4>
+            <h5
+              className="card-subtitle text-muted"
+            >
+               
+              James Howlett
+               
+            </h5>
+            <a
+              href="/hero/marvel-wolverine"
+              onClick={[Function]}
+            >
+              ...Más
+            </a>
+          </div>
+        </div>
+        <div
+          className="card mb-5 ms-5 pe-1 "
+          style={
+            Object {
+              "maxWidth": 350,
+            }
+          }
+        >
+          <img
+            alt="hero"
+            className="card-img-top mt-3 rounded mx-auto d-block"
+            src="../assets/heroes/marvel-daredevil.jpg"
+            style={
+              Object {
+                "maxHeight": 300,
+                "maxWidth": 250,
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <h4
+              className="card-title"
+            >
+               
+              Daredevil
+               
+            </h4>
+            <h5
+              className="card-subtitle text-muted"
+            >
+               
+              Matthew Michael Murdock
+               
+            </h5>
+            <a
+              href="/hero/marvel-daredevil"
+              onClick={[Function]}
+            >
+              ...Más
+            </a>
+          </div>
+        </div>
+        <div
+          className="card mb-5 ms-5 pe-1 "
+          style={
+            Object {
+              "maxWidth": 350,
+            }
+          }
+        >
+          <img
+            alt="hero"
+            className="card-img-top mt-3 rounded mx-auto d-block"
+            src="../assets/heroes/marvel-hawkeye.jpg"
+            style={
+              Object {
+                "maxHeight": 300,
+                "maxWidth": 250,
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <h4
+              className="card-title"
+            >
+               
+              Hawkeye
+               
+            </h4>
+            <h5
+              className="card-subtitle text-muted"
+            >
+               
+              Clinton Francis Barton
+               
+            </h5>
+            <a
+              href="/hero/marvel-hawkeye"
+              onClick={[Function]}
+            >
+              ...Más
+            </a>
+          </div>
+        </div>
+        <div
+          className="card mb-5 ms-5 pe-1 "
+          style={
+            Object {
+              "maxWidth": 350,
+            }
+          }
+        >
+          <img
+            alt="hero"
+            className="card-img-top mt-3 rounded mx-auto d-block"
+            src="../assets/heroes/marvel-cyclops.jpg"
+            style={
+              Object {
+                "maxHeight": 300,
+                "maxWidth": 250,
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <h4
+              className="card-title"
+            >
+               
+              Cyclops
+               
+            </h4>
+            <h5
+              className="card-subtitle text-muted"
+            >
+               
+              Scott Summers
+               
+            </h5>
+            <a
+              href="/hero/marvel-cyclops"
+              onClick={[Function]}
+            >
+              ...Más
+            </a>
+          </div>
+        </div>
+        <div
+          className="card mb-5 ms-5 pe-1 "
+          style={
+            Object {
+              "maxWidth": 350,
+            }
+          }
+        >
+          <img
+            alt="hero"
+            className="card-img-top mt-3 rounded mx-auto d-block"
+            src="../assets/heroes/marvel-silver.jpg"
+            style={
+              Object {
+                "maxHeight": 300,
+                "maxWidth": 250,
+              }
+            }
+          />
+          <div
+            className="card-body"
+          >
+            <h4
+              className="card-title"
+            >
+               
+              Silver Surfer
+               
+            </h4>
+            <h5
+              className="card-subtitle text-muted"
+            >
+               
+              Norrin Radd
+               
+            </h5>
+            <a
+              href="/hero/marvel-silver"
+              onClick={[Function]}
+            >
+              ...Más
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

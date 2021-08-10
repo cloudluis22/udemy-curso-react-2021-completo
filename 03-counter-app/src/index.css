@@ -1,0 +1,32 @@
+html, body{
+
+    color: white;
+    background-color: #21232A;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    padding: 70px;
+    
+}
+
+button{
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 3px;
+    margin-right: 30px;
+}
+
+#agregar{
+    background-color: rgb(82, 156, 82);
+}
+
+#restar{
+    background-color: rgb(255, 85, 73);
+}
+
+#reiniciar{
+    background-color: rgb(255, 206, 72);
+}
+
+button:hover{
+    cursor: pointer;
+}

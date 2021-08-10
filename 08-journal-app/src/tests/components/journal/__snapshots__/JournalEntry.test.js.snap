@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente funcional de "<JournalEntry />". Debe de renderizarse correctamente y hacer match con el snapshot. 1`] = `
+<div
+  onClick={[Function]}
+>
+  <div
+    className="journal__entry pointer"
+  >
+    <div
+      className="journal__entry-picture"
+      style={
+        Object {
+          "backgroundImage": "url(https://linkdetesteo.com/foto.jpg)",
+          "backgroundSize": "cover",
+        }
+      }
+    />
+    <div
+      className="journal__entry-body"
+    >
+      <p
+        className="journal__entry-title"
+      >
+         
+        hola
+         
+      </p>
+      <p
+        className="journal__entry-content"
+      >
+         
+        mundo
+         
+      </p>
+    </div>
+    <div
+      className="journal__entry-date-box"
+    >
+      <span>
+         
+        Wednesday
+         
+      </span>
+      <h4>
+         
+        31st
+         
+      </h4>
+    </div>
+  </div>
+</div>
+`;
